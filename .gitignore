@@ -1,0 +1,37 @@
+
+---
+
+## 📄 .gitignore (C++ / CLion için)
+
+```gitignore
+# Build directories
+/build
+/cmake-build-*/
+CMakeFiles
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# IDE files
+.idea/
+.vscode/
+
+# Executables
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Logs
+*.log
+
+# Python cache (for matplotlib/numpy if used)
+__pycache__/
+*.pyc
